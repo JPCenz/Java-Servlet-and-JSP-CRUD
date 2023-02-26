@@ -15,36 +15,54 @@
     </head>
     <body>
         <main class="container" style="">
-            
+
             <center>
-                <h1>Alumnos</h1>
+                <h1>Evaluacion Final - Sistema Gestion Alumnos</h1>
+                <div class="grid">
+                    <p class=""><b>Construccion de software</b> </p>
+                    <p>Alumno  :  Jaime Paolo Cenzano Gonzales</p>
+                </div>
+
+
+
                 <h2 class="container">Menu de Opciones</h1>
             </center>
-            
-            <form action="menuOpciones" method="POST" class="center">
-                <!-- Radios -->
 
-                <fieldset>
-                    <legend>Seleccione una Opcion:</legend>
-                    <label for="small">
-                        <input type="radio" id="opcion" name="opcion" value="1" checked>
-                        Registrar alumno
-                    </label>
-                    <label for="medium">
-                        <input type="radio" id="opcion" name="opcion" value="2">
-                        Buscar alumno
-                    </label>
-                    <label for="large">
-                        <input type="radio" id="opcion" name="opcion" value="3">
-                        Eliminar
-                    </label>
-                    <label for="extralarge">
-                        <input type="radio" id="opcion" name="opcion" value="4">
-                        Listar Alumno
-                    </label>
-                </fieldset>
-                <button type="submit">Seleccionar</button>
-            </form>
+            <center>
+
+            </center>
+            <div class="grid">
+                <div></div>
+                <div>
+                    <form action="menuOpciones" method="POST" class="center">
+
+                        <fieldset style="">
+                            <legend>Seleccione una Opcion:</legend>
+                            <label for="small">
+                                <input type="radio" id="opcion" name="opcion" value="1" checked>
+                                Registrar alumno
+                            </label>
+                            <label for="medium">
+                                <input type="radio" id="opcion" name="opcion" value="2">
+                                Buscar alumno
+                            </label>
+                            <label for="large">
+                                <input type="radio" id="opcion" name="opcion" value="3">
+                                Eliminar
+                            </label>
+                            <label for="extralarge">
+                                <input type="radio" id="opcion" name="opcion" value="4">
+                                Listar Alumno
+                            </label>
+                        </fieldset>
+                        <button type="submit">Seleccionar</button>
+                    </form>
+                </div>
+                <div></div>
+
+
+            </div>
+
 
         </main>
     </body>
